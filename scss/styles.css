@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Avenir", sans-serif;
+}
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__btn {
+  text-decoration: none;
+}
+
+.header__link {
+  margin-right: 28px;
+  text-decoration: none;
+  list-style: none;
+  color: #191919;
+}
+/*# sourceMappingURL=styles.css.map */

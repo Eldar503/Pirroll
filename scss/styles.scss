@@ -1,16 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Avenir", sans-serif;
+  }
   
   .container {
     width: 1120px;
     margin: 0 auto;
   }
 
-.header__content {
+.header {
+  &__content {
     display: flex;
     position: relative;
-}
-.header__nav{
+  }
+  &__nav {
     display: flex;
+  }
+  &__btn{
+    text-decoration: none;
+    
+  }
+  &__link{
+    margin-right: 28px;
+    text-decoration: none;
+    list-style: none;
+    color: #191919;
+  }
 }
-
-
-
