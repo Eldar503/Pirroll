@@ -1,55 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: "Avenir", sans-serif;
-  }
-  
-  .container {
-    width: 1120px;
-    margin: 0 auto;
-  }
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  scroll-behavior: smooth;
+}
 
-.col-1{
-    width: 8.33%;
+body {
+  font-family: "Avenir", sans-serif;
 }
-.col-2{
-    width: 16.66%;
+
+.container {
+  width: 1120px;
+  margin: 0 auto;
 }
-.col-3{
-    width: 24.99%;
+
+.col-1 {
+  width: 8.33%;
 }
-.col-4{
-    width: 33.33% ;
+.col-2 {
+  width: 16.66%;
 }
-.col-5{
-    width: 41.66%;
+.col-3 {
+  width: 24.99%;
 }
-.col-6{
-    width: 50% ;
+.col-4 {
+  width: 33.33%;
 }
-.col-7{
-    width: 58.3%;
+.col-5 {
+  width: 41.66%;
 }
-.col-8{
-    width: 66.5%;
+.col-6 {
+  width: 50%;
 }
-.col-9{
-    width: 74.9%;
+.col-7 {
+  width: 58.3%;
 }
-.col-10{
-    width: 83.33%;
+.col-8 {
+  width: 66.5%;
 }
-.col-11{
-    width:91.66% ;
+.col-9 {
+  width: 74.9%;
 }
-.col-12{
-    width: 100%;
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 91.66%;
+}
+.col-12 {
+  width: 100%;
 }

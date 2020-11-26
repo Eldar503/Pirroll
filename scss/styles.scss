@@ -1,5 +1,5 @@
-
 .header {
+  margin-top: 40px;
   &__content {
     display: flex;
     position: relative;
@@ -9,10 +9,14 @@
   }
   &__btn{
     text-decoration: none;
+    color: #191919;
+    &:hover{
+      color: #3bcfcb;
+    }
   }
   &__link{
     margin-right: 28px;
-    text-decoration: none;
     list-style: none;
+    font-family: Montserr;
   }
 }

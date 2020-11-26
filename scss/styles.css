@@ -1,3 +1,7 @@
+.header {
+  margin-top: 40px;
+}
+
 .header__content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -13,11 +17,16 @@
 
 .header__btn {
   text-decoration: none;
+  color: #191919;
+}
+
+.header__btn:hover {
+  color: #3bcfcb;
 }
 
 .header__link {
   margin-right: 28px;
-  text-decoration: none;
   list-style: none;
+  font-family: Montserr;
 }
 /*# sourceMappingURL=styles.css.map */
