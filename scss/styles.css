@@ -130,4 +130,63 @@
   margin-top: 40px;
   width: 20%;
 }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skill {
+  background: #f8f9f9;
+  margin: 0 auto;
+}
+
+.skill__content {
+  width: 50%;
+  padding: 150px 100px;
+}
+
+.skill__img {
+  background-color: white;
+  background: url(https://pngtree.com/so/can-be-used-for-landing-pages);
+}
+
+.skill__about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.skill__content h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.skill__content p {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
+
+.skill__content p {
+  font-size: 0.9em;
+  color: #171717;
+  text-transform: uppercase;
+}
+
+.skill__content .bar {
+  margin-top: 25px;
+  width: 150%;
+  height: 3px;
+  background-color: #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.skill__content .bar div {
+  height: 100%;
+  background-color: #10c9c3;
+}
 /*# sourceMappingURL=styles.css.map */
