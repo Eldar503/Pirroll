@@ -89,7 +89,7 @@
 // hero off
 
 .about{
-  height: 420px;
+  height: 400px;
   text-align: center;
   &__title{
     margin-top: 100px;
@@ -110,6 +110,7 @@
     font-family: "Nunito Sans";
   }
   &__img{
-
+    margin-top: 40px;
+    width: 20%;
   }
 }
