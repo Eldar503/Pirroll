@@ -123,15 +123,16 @@
   display: flex;
 }
 .skill {
-  background: #f8f9f9;
+  background: white;
   margin: 0 auto;
   &__content {
-    width: 50%;
+    background: #f8f9f9;
     padding: 150px 100px;
   }
   &__img {
-    background-color: white;
-    background: url(https://pngtree.com/so/can-be-used-for-landing-pages);
+    margin-top: -40px;
+    width: 100%;
+    height: 100%;
   }
   &__about {
     display: flex;
@@ -159,7 +160,7 @@
 
 .skill__content .bar {
   margin-top: 25px;
-  width: 150%;
+  width: 100%;
   height: 3px;
   background-color: #e6e6e6;
   margin-bottom: 30px;
