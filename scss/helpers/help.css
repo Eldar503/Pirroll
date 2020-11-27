@@ -11,6 +11,10 @@ a {
   text-transform: uppercase;
 }
 
+a:hover {
+  color: #10c9c3;
+}
+
 html {
   scroll-behavior: smooth;
 }
