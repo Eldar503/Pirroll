@@ -71,5 +71,13 @@
     width: 180px;
     height: 54px;
     background-color: #10c9c3;
+    text-decoration: none;
+    transition: 0.5s;
+    &:hover{
+    color: #10c9c3;
+    background-color:  #ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+    }
   }
 }
