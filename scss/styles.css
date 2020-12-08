@@ -192,11 +192,48 @@
 }
 
 .success {
-  width: 1366px;
+  margin-top: -125px;
+  min-width: 1366px;
   height: 240px;
   background-color: #10c9c3;
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
+}
+
+.success__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.success__number {
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.success__description {
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #ffffff;
+  font-weight: 500;
+  font-family: "Montserrat";
+}
+
+.success__me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.success__mentor {
+  margin-top: 8px;
+  margin-right: 25px;
+  max-height: 40px;
+  min-width: 40px;
 }
 /*# sourceMappingURL=styles.css.map */

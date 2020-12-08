@@ -173,17 +173,40 @@
 // success section
 
 .success {
-  width: 1366px;
+  margin-top: -125px;
+  min-width: 1366px;
   height: 240px;
   background-color: #10c9c3;
-  display: flex !important;
-  &__text{
-  
+  &__content {
+    display: flex;
   }
-  &__number{
-
+  &__text {
   }
-  &__description{
-
+  &__number {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+  }
+  &__description {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Montserrat";
+  }
+  &__me {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+  }
+  &__mentor {
+    margin-top: 8px;
+    margin-right: 25px;
+    max-height: 40px;
+    min-width: 40px;
   }
 }
