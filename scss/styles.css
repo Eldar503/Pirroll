@@ -190,4 +190,13 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+.success {
+  width: 1366px;
+  height: 240px;
+  background-color: #10c9c3;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
 /*# sourceMappingURL=styles.css.map */
