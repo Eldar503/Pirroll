@@ -236,4 +236,11 @@
   max-height: 40px;
   min-width: 40px;
 }
+
+.menu__bob {
+  left: 0;
+  top: 0;
+  max-width: 340px;
+  max-height: 300px;
+}
 /*# sourceMappingURL=styles.css.map */

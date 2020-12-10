@@ -78,3 +78,7 @@ body {
   width: 100%;
 }
 /*# sourceMappingURL=help.css.map */
+
+.row{
+  flex-wrap: wrap;
+}
