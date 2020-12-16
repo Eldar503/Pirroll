@@ -210,11 +210,16 @@
     min-width: 40px;
   }
 }
+
+
 .menu{
   &__bob{
-    left: 0;
-    top: 0;
-    max-width: 340px;
-    max-height: 300px;
+    margin-top: -10px;
+    min-width: 370px;
+    max-height: 320px;
+    &__item{
+      background-color: rgba(0,0,0,.9);
+      z-index: 1;
+    }
   }
 }
