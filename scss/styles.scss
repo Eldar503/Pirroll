@@ -211,15 +211,18 @@
   }
 }
 
-
-.menu{
-  &__bob{
+.menu {
+  &__bob {
     margin-top: -10px;
     min-width: 370px;
     max-height: 320px;
-    &__item{
-      background-color: rgba(0,0,0,.9);
-      z-index: 1;
+    &__item {
+      background-color: rgba(0, 0, 0, 0.3);
+      height: 100%;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
     }
   }
 }
