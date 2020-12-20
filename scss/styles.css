@@ -312,6 +312,7 @@
 }
 
 .services__row {
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -320,17 +321,19 @@
 }
 
 .services__content {
+  margin-top: 60px;
   text-align: center;
   min-width: 230px;
   min-height: 155px;
 }
 
 .services__title {
-  font-size: 12px;
+  text-transform: uppercase;
+  font-size: 14px;
   letter-spacing: 1px;
   line-height: 30px;
   color: #191919;
-  font-weight: 500;
+  font-weight: 700;
   font-family: "Montserrat";
 }
 
