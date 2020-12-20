@@ -286,7 +286,7 @@
 .services {
   min-height: 535px;
   background-color: #f5f5f5;
-  &__row{
+  &__row {
     margin-top: 40px;
     margin-bottom: 95px;
     display: flex;
@@ -296,7 +296,7 @@
     margin-top: 60px;
     text-align: center;
     min-width: 230px;
-  min-height: 155px;
+    min-height: 155px;
   }
   &__title {
     margin-top: 25px;
@@ -321,75 +321,75 @@
 }
 .contact_us-form_input-name,
 .contact_us-form_input-email {
-    width: 320px;
+  width: 320px;
 }
 
 .contact_us-form_input-name {
-    text-transform: capitalize;
+  text-transform: capitalize;
 }
 
 .contact_us-form_input-text,
 .contact_us-form_input-textarea {
   transition: 3s;
-    width: 100%;
+  width: 100%;
 }
 
 .contact_us-form_input-textarea {
   transition: 3s;
-    resize: none;
-    height: 170px;
+  resize: none;
+  height: 170px;
 }
 
 .contact_us-form_input-submit {
-    font-family: Montserrat;
-    color: #ffffff;
-    font-size: 12px;
-    line-height: 54px;
-    background-color: #10c9c3;
-    text-transform: uppercase;
-    margin: auto;
-    padding: 0 35px;
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 54px;
+  background-color: #10c9c3;
+  text-transform: uppercase;
+  margin: auto;
+  padding: 0 35px;
 }
 .carousel__wrapper {
-    position: relative;
-    min-height: 500px;
+  position: relative;
+  min-height: 500px;
 }
 
 .corousel__item {
-    position: relative;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 0;
-    -webkit-transition: 1s ease-in-out;
-    transition: 1s ease-in-out;
+  position: relative;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .filter {
-    background-color: rgba(0, 0, 0, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .corousel__item-1:hover .filter,
 .corousel__item-2:hover .filter,
 .corousel__item-3:hover .filter {
   transition: 3s;
-    background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .corousel__item-1 .filter,
 .corousel__item-2 .filter,
@@ -397,87 +397,112 @@
   transition: 3s;
 }
 .corousel__item-1 {
-    background-color: #10c9c3;
-    z-index: 2;
-    opacity: 1;
+  background-color: #10c9c3;
+  z-index: 2;
+  opacity: 1;
 }
 
 .corousel__item-2 {
-    background-color: #22cf22;
+  background-color: #22cf22;
 }
 
 .corousel__item-3 {
-    background-color: #a617d1;
+  background-color: #a617d1;
 }
 
-*:target~.corousel__item-1 {
-    opacity: 0;
+*:target ~ .corousel__item-1 {
+  opacity: 0;
 }
 
-#target__item-1:target~.corousel__item-1 {
-    opacity: 1;
+#target__item-1:target ~ .corousel__item-1 {
+  opacity: 1;
 }
 
-#target__item-2:target~.corousel__item-2,
-#target__item-3:target~.corousel__item-3 {
+#target__item-2:target ~ .corousel__item-2,
+#target__item-3:target ~ .corousel__item-3 {
   transition: 3s;
-    z-index: 3;
-    opacity: 1;
+  z-index: 3;
+  opacity: 1;
 }
 
 .corousel__text-box {
   transition: 6s;
-    width: 70%;
-    z-index: 5;
-    color: white;
-    text-align: center;
+  width: 70%;
+  z-index: 5;
+  color: white;
+  text-align: center;
 }
 
 .corousel__texte-lement {
-    font-family: 'Montserrat';
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 36px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
 }
 
 .arousel__texte-sign {
   transition: 6s;
-    font-family: 'Montserrat';
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 36px;
-    text-transform: uppercase;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: uppercase;
 }
 
 .carousel__dots {
   transition: 6s;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    width: 6%;
-    position: absolute;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    bottom: 42px;
-    left: 47%;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 6%;
+  position: absolute;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  bottom: 42px;
+  left: 47%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .carousel__dots .carousel__dots_dot {
   transition: 6s;
-    display: block;
-    width: 6px;
-    height: 6px;
-    background-color: #b0e8e6;
-    border-radius: 50%;
+  display: block;
+  width: 6px;
+  height: 6px;
+  background-color: #b0e8e6;
+  border-radius: 50%;
 }
 
 .carousel__dots .carousel__dots_dot-active {
   transition: 6s;
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
+.brands {
+  max-width: 100%;
+  position: relative;
+  min-height: 200px;
+  background: url(../img/brands/bg.png) no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  &__link {
+    z-index: 1;
+  }
+  &__img {
+    -webkit-transition: 1s;
+    transition: 1s;
+    &:hover {
+      -webkit-transform: scale(1.5);
+      transform: scale(1.5);
+    }
+  }
 }

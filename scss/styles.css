@@ -475,7 +475,7 @@
 }
 
 .corousel__texte-lement {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 24px;
   font-weight: 500;
   line-height: 36px;
@@ -484,7 +484,7 @@
 .arousel__texte-sign {
   -webkit-transition: 6s;
   transition: 6s;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 12px;
   font-weight: 500;
   line-height: 36px;
@@ -525,5 +525,34 @@
   width: 10px;
   height: 10px;
   background-color: #fff;
+}
+
+.brands {
+  max-width: 100%;
+  position: relative;
+  min-height: 200px;
+  background: url(../img/brands/bg.png) no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.brands__link {
+  z-index: 1;
+}
+
+.brands__img {
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.brands__img:hover {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 /*# sourceMappingURL=styles.css.map */
